@@ -1,6 +1,6 @@
 import { Github, Linkedin, Mail, MapPin, Phone, ExternalLink, Code2, Server, Database, Award, Briefcase, GraduationCap, ChevronDown, Blocks } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import myPhoto from '../src/assets/me.jpg';
+import myPhoto from '../src/assets/me.png';
 
 
 function App() {
