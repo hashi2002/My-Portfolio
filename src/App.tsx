@@ -16,7 +16,7 @@ function App() {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
-          return rect.top <= 100 && rect.bottom >= 100;
+          return rect.top <= 100 && rect.bottom >= 100 ;
         }
         return false;
       });
