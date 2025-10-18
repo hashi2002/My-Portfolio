@@ -15,7 +15,7 @@ function App() {
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
-          const rect = element.getBoundingClientRect();
+          const rect = element.getBoundingClientRect() ;
           return rect.top <= 100 && rect.bottom >= 100 ;
         }
         return false;
